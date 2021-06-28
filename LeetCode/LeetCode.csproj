@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithm.cs" />
-    <Compile Include="Offer.cs" />
-    <Compile Include="Tool.cs" />
-    <Compile Include="数组.cs" />
+    <Compile Include="题库101-200.cs" />
+    <Compile Include="剑指Offer.cs" />
+    <Compile Include="Solution.cs" />
+    <Compile Include="题库001-100.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="树.cs" />
+    <Compile Include="题库201-300.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
