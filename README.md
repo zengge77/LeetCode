@@ -1,2 +1,4 @@
-# LeetCode
- LeetCode Problems' Solutions With C#（使用C#的LeetCode题解）
+# LeetCode With C#
+之前断断续续做了一些LeetCode的题目,现在整理一下,做成仓库上传,并保持每日至少一题.
+
+暂时把题解以序号分散写在几个cs文件里,方便跨端做题并测试,以后题解的体量大了,会改写成md文件上传,方便展示及查阅.
