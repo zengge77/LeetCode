@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class 题库201_300
+    partial class Problems
     {
 
     }

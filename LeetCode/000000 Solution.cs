@@ -11,6 +11,8 @@ namespace LeetCode
         static void Main(string[] args)
         {
             #region 测试用例
+            
+            Problems problems = new Problems();
 
             //数组
             int[] nums = new int[] { 3, 1, 2 };
@@ -23,8 +25,7 @@ namespace LeetCode
             #endregion
 
             //工作区
-
-
+            
 
             Console.Read();
         }

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class 剑指Offer
+    partial class 剑指Offer
     {
         /// <summary>
         /// 32 - I. 从上到下打印二叉树
         /// </summary>
         /// <param name="root"></param>
         /// <returns></returns>
-        public static int[] LevelOrder(TreeNode root)
+        public int[] LevelOrder(TreeNode root)
         {
             if (root == null) { return new int[] { }; }
 
