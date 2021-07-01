@@ -11,7 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             #region 测试用例
-            
+
             Problems problems = new Problems();
 
             //数组
@@ -22,10 +22,23 @@ namespace LeetCode
             TreeNode nodeTwo = new TreeNode(5);
             TreeNode root = new TreeNode(5, nodeOne, nodeTwo);
 
+            //链表
+            ListNode l1 = new ListNode(1);
+            ListNode listNodeTwo = new ListNode(2);
+            ListNode listNodeThree = new ListNode(3);
+            l1.next = listNodeTwo;
+            listNodeTwo.next = listNodeThree;
+
+            ListNode l2 = new ListNode(4);
+            ListNode listNodeFive = new ListNode(5);
+            ListNode listNodeSix = new ListNode(7);
+            l2.next = listNodeFive;
+            listNodeFive.next = listNodeSix;
+
             #endregion
 
             //工作区
-            
+            PrintListNode(problems.AddTwoNumbers(l1,l2));
 
             Console.Read();
         }
@@ -36,6 +49,16 @@ namespace LeetCode
             for (int i = 0; i < array.Length; i++)
             {
                 Console.WriteLine(array[i]);
+            }
+        }
+
+        public static void PrintListNode(ListNode listNode)
+        {
+            ListNode current = listNode;
+            while (current != null)
+            {
+                Console.Write(current.val);
+                current = current.next;
             }
         }
     }
@@ -52,5 +75,12 @@ namespace LeetCode
             this.left = left;
             this.right = right;
         }
+    }
+
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
     }
 }

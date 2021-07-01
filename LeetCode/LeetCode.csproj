@@ -43,12 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="题库101-200.cs" />
+    <Compile Include="000000 模板 - 复制.cs" />
+    <Compile Include="027. 移除元素-简单-数组.cs" />
+    <Compile Include="028. 实现 strStr%28%29-简单-字符串.cs" />
+    <Compile Include="038. 外观数列-中等-字符串.cs" />
+    <Compile Include="100. 相同的树-简单-二叉树.cs" />
+    <Compile Include="112. 路径总和-简单-二叉树.cs" />
+    <Compile Include="226. 翻转二叉树-简单-二叉树.cs" />
+    <Compile Include="014. 最长公共前缀-简单-字符串.cs" />
+    <Compile Include="020. 有效的括号-简单-字符串.cs" />
+    <Compile Include="026. 删除有序数组中的重复项-简单-数组.cs" />
+    <Compile Include="128. 最长连续数列-中等-数组.cs" />
+    <Compile Include="007. 整数反转-简单-数学.cs" />
+    <Compile Include="009. 回文数-简单-数学.cs" />
+    <Compile Include="035. 搜索插入位置-简单-数组.cs" />
+    <Compile Include="124. 二叉树中的最大路径和-困难-二叉树.cs" />
+    <Compile Include="200. 岛屿数量-中等-搜索.cs" />
     <Compile Include="剑指Offer.cs" />
-    <Compile Include="Solution.cs" />
-    <Compile Include="题库001-100.cs" />
+    <Compile Include="000000 Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="题库201-300.cs" />
+    <Compile Include="002. 两数相加.cs" />
+    <Compile Include="001. 两数之和-简单-数组.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
