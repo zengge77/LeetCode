@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="000000 模板 - 复制.cs" />
+    <Compile Include="003.无重复字符的最长子串-中等-数组.cs" />
+    <Compile Include="000000 模板.cs" />
     <Compile Include="027. 移除元素-简单-数组.cs" />
     <Compile Include="028. 实现 strStr%28%29-简单-字符串.cs" />
     <Compile Include="038. 外观数列-中等-字符串.cs" />
@@ -62,7 +63,7 @@
     <Compile Include="剑指Offer.cs" />
     <Compile Include="000000 Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="002. 两数相加.cs" />
+    <Compile Include="002. 两数相加-简单-链表.cs" />
     <Compile Include="001. 两数之和-简单-数组.cs" />
   </ItemGroup>
   <ItemGroup>
