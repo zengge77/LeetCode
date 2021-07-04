@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="006.字符串转换整数%28atoi%29-中等-字符串.cs" />
     <Compile Include="011. 盛最多水的容器-中等-数组.cs" />
     <Compile Include="021. 合并两个有序链表-简单-链表.cs" />
     <Compile Include="003.无重复字符的最长子串-中等-数组.cs" />

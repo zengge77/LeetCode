@@ -8,8 +8,12 @@ namespace LeetCode
 {
     partial class Problems
     {
-        //题目：
+        public void Func(int num)
+        {
+            //题目：
 
-        //思路：
+            //思路：
+
+        }
     }
 }
